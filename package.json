@@ -1,0 +1,19 @@
+{
+  "name": "react-pt-football-logos",
+  "version": "0.0.1",
+  "description": "React components for Portuguese football logos/crests.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaopalmeiro/react-pt-football-logos.git"
+  },
+  "author": {
+    "name": "João Palmeiro",
+    "email": "jm.palmeiro@campus.fct.unl.pt",
+    "url": "https://joaopalmeiro.github.io/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joaopalmeiro/react-pt-football-logos/issues"
+  },
+  "homepage": "https://github.com/joaopalmeiro/react-pt-football-logos#readme"
+}
