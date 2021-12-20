@@ -28,6 +28,8 @@ React components for Portuguese football logos/crests.
   - [react-icons](https://github.com/react-icons/react-icons).
   - [SVGO](https://github.com/svg/svgo) ([UI](https://jakearchibald.github.io/svgomg/)).
   - [SVGR](https://react-svgr.com/).
+  - [polished](https://polished.js.org/) (for style calculations).
+  - [styled-components](https://styled-components.com/). `npm install --save-peer styled-components`.
 - SVGs:
   - [Guidelines](https://github.com/simple-icons/simple-icons/blob/develop/CONTRIBUTING.md).
   - `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>...</title>...</svg>`.
@@ -46,3 +48,5 @@ React components for Portuguese football logos/crests.
 - `package.json` file:
   - `"name": "@GITHUBUSERNAME/component-library"`.
   - `npm install --save-peer react react-dom`. The `--save-peer` flag is not available in [npm 6](https://docs.npmjs.com/cli/v6/commands/npm-install), only from [npm 7](https://docs.npmjs.com/cli/v7/commands/npm-install).
+- [Storybook CLI](https://www.npmjs.com/package/@storybook/cli):
+  - `npx sb init --use-npm`.
