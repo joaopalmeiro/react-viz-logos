@@ -43,3 +43,6 @@ React components for Portuguese football logos/crests.
   - [Support for pnpm](https://github.com/volta-cli/volta/issues/737) (open) issue.
   - [Documentation](https://docs.volta.sh/guide/).
 - [Zendesk Garden](https://garden.zendesk.com/) (design system).
+- `package.json` file:
+  - `"name": "@GITHUBUSERNAME/component-library"`.
+  - `npm install --save-peer react react-dom`. The `--save-peer` flag is not available in [npm 6](https://docs.npmjs.com/cli/v6/commands/npm-install), only from [npm 7](https://docs.npmjs.com/cli/v7/commands/npm-install).
