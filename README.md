@@ -10,6 +10,7 @@ React components for Portuguese football logos/crests.
 - [@heroicons/react](https://www.npmjs.com/package/@heroicons/react) package.
 - [react-icon-boilerplate](https://github.com/mikunpham/react-icon-boilerplate) template and [Create your own React icons library and publish to npm automatically](https://dev.to/quanpham/create-your-own-react-icons-library-and-publish-to-npm-automatically-4i11) blog post.
 - [Simple Icons](https://github.com/simple-icons/simple-icons) and its [contributing guidelines](https://github.com/simple-icons/simple-icons/blob/develop/CONTRIBUTING.md).
+- [What are peer dependencies in a Node module?](https://flaviocopes.com/npm-peer-dependencies/) blog post.
 
 ### Logos/Crests
 
@@ -38,3 +39,7 @@ React components for Portuguese football logos/crests.
     - Add the `<title>` element manually after exporting.
   - `raw` > `figma`.
 - [Implement pnpm init (instead of passing through to npm init)](https://github.com/pnpm/pnpm/issues/3505) (open) issue. Current command: `pnpm init`.
+- [Volta](https://github.com/volta-cli/volta):
+  - [Support for pnpm](https://github.com/volta-cli/volta/issues/737) (open) issue.
+  - [Documentation](https://docs.volta.sh/guide/).
+- [Zendesk Garden](https://garden.zendesk.com/) (design system).
