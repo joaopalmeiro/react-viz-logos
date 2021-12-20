@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/joaopalmeiro/react-pt-football-logos/issues"
   },
-  "homepage": "https://github.com/joaopalmeiro/react-pt-football-logos#readme"
+  "homepage": "https://github.com/joaopalmeiro/react-pt-football-logos#readme",
+  "volta": {
+    "node": "16.13.1",
+    "npm": "8.1.2"
+  }
 }

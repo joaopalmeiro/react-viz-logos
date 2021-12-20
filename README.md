@@ -13,6 +13,7 @@ React components for Portuguese football logos/crests.
 - [What are peer dependencies in a Node module?](https://flaviocopes.com/npm-peer-dependencies/) blog post.
 - [The newline Guide to Building a Company Component Library](https://www.newline.co/courses/newline-guide-to-building-a-company-component-library) course.
 - [Creating React Libraries from Scratch](https://www.newline.co/courses/creating-react-libraries-from-scratch) course.
+- [Introducing Volta - it manages your Node.js versions so you don't have to](https://www.newline.co/@paigen11/introducing-volta-it-manages-your-nodejs-versions-so-you-dont-have-to--eef49522) blog post.
 
 ### Logos/Crests
 
@@ -47,6 +48,11 @@ React components for Portuguese football logos/crests.
 - [Volta](https://github.com/volta-cli/volta):
   - [Support for pnpm](https://github.com/volta-cli/volta/issues/737) (open) issue.
   - [Documentation](https://docs.volta.sh/guide/).
+  - [`volta pin`](https://docs.volta.sh/reference/pin).
+  - `volta -v`.
+  - `volta pin node@lts`.
+  - `volta pin npm`.
+  - `node -v && npm -v`.
 - [Zendesk Garden](https://garden.zendesk.com/) (design system).
 - `package.json` file:
   - `"name": "@GITHUBUSERNAME/component-library"`.
