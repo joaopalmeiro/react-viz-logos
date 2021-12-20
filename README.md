@@ -11,6 +11,8 @@ React components for Portuguese football logos/crests.
 - [react-icon-boilerplate](https://github.com/mikunpham/react-icon-boilerplate) template and [Create your own React icons library and publish to npm automatically](https://dev.to/quanpham/create-your-own-react-icons-library-and-publish-to-npm-automatically-4i11) blog post.
 - [Simple Icons](https://github.com/simple-icons/simple-icons) and its [contributing guidelines](https://github.com/simple-icons/simple-icons/blob/develop/CONTRIBUTING.md).
 - [What are peer dependencies in a Node module?](https://flaviocopes.com/npm-peer-dependencies/) blog post.
+- [The newline Guide to Building a Company Component Library](https://www.newline.co/courses/newline-guide-to-building-a-company-component-library) course.
+- [Creating React Libraries from Scratch](https://www.newline.co/courses/creating-react-libraries-from-scratch) course.
 
 ### Logos/Crests
 
@@ -30,6 +32,7 @@ React components for Portuguese football logos/crests.
   - [SVGR](https://react-svgr.com/).
   - [polished](https://polished.js.org/) (for style calculations).
   - [styled-components](https://styled-components.com/). `npm install --save-peer styled-components`.
+  - [nanoid](https://www.npmjs.com/package/nanoid).
 - SVGs:
   - [Guidelines](https://github.com/simple-icons/simple-icons/blob/develop/CONTRIBUTING.md).
   - `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>...</title>...</svg>`.
@@ -48,5 +51,14 @@ React components for Portuguese football logos/crests.
 - `package.json` file:
   - `"name": "@GITHUBUSERNAME/component-library"`.
   - `npm install --save-peer react react-dom`. The `--save-peer` flag is not available in [npm 6](https://docs.npmjs.com/cli/v6/commands/npm-install), only from [npm 7](https://docs.npmjs.com/cli/v7/commands/npm-install).
+  - Entry points:
+    - `main`: CJS.
+    - `module`: ES Modules.
+    - `browser`: Universal Module Definition (UMD).
 - [Storybook CLI](https://www.npmjs.com/package/@storybook/cli):
   - `npx sb init --use-npm`.
+- CommonJS (CJS): Server-side only.
+- `npx browserslist ">0.2%, not dead, not op_mini all"`.
+- [`npm version`](https://docs.npmjs.com/cli/v8/commands/npm-version):
+  - `npm version minor` or `npm version patch`. It adds a Git tag by default.
+  - `git push --follow-tags`.
