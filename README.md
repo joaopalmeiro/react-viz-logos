@@ -62,3 +62,4 @@ React components for Portuguese football logos/crests.
 - [`npm version`](https://docs.npmjs.com/cli/v8/commands/npm-version):
   - `npm version minor` or `npm version patch`. It adds a Git tag by default.
   - `git push --follow-tags`.
+- Peer dependencies: the dependencies we expect users to provide.
