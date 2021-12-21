@@ -2,9 +2,14 @@
 
 React components for Portuguese football logos/crests.
 
-## References
+## Development
 
-### Development
+- Install the [SVG Export](https://svgexport.io/) Chrome extension.
+- `npm install`.
+- `npm run storybook`.
+- `npm run build`.
+
+## References
 
 - [heroicons](https://github.com/tailwindlabs/heroicons) package and its [build.js](https://github.com/tailwindlabs/heroicons/blob/master/scripts/build.js) script.
 - [@heroicons/react](https://www.npmjs.com/package/@heroicons/react) package.
@@ -19,7 +24,9 @@ React components for Portuguese football logos/crests.
 
 > [Figma](https://www.figma.com/file/KivMb0U7MQW6vzQCrzB2o5/react-pt-football-logos?node-id=0%3A1)
 
-- [Sporting](<https://en.wikipedia.org/wiki/File:Sporting_Clube_de_Portugal_(Logo).svg>) and [Sporting](https://scpconteudos.pt/sites/all/themes/jump/images/SVG/icon_emblema.svg). `sporting.svg`.
+- Sporting (`sporting.svg`):
+  - [Wikipedia](<https://en.wikipedia.org/wiki/File:Sporting_Clube_de_Portugal_(Logo).svg>).
+  - [Official website](https://scpconteudos.pt/sites/all/themes/jump/images/SVG/icon_emblema.svg).
 
 ## Notes
 
@@ -36,7 +43,7 @@ React components for Portuguese football logos/crests.
   - [nanoid](https://www.npmjs.com/package/nanoid).
 - SVGs:
   - [Guidelines](https://github.com/simple-icons/simple-icons/blob/develop/CONTRIBUTING.md).
-  - `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>...</title>...</svg>`.
+  - `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">...</svg>` or `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>...</title>...</svg>`.
   - Scale the logo to fit the `viewBox` proportionally. This means that the logo must touch at least two sides of the `viewBox`. The logo must be centered too.
   - The logo must only contain `path` elements.
   - Figma:
