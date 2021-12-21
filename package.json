@@ -25,9 +25,19 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@svgr/cli": "^6.1.2"
+    "@babel/core": "^7.16.5",
+    "@storybook/addon-actions": "^6.4.9",
+    "@storybook/addon-essentials": "^6.4.9",
+    "@storybook/addon-links": "^6.4.9",
+    "@storybook/react": "^6.4.9",
+    "@svgr/cli": "^6.1.2",
+    "babel-loader": "^8.2.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "scripts": {
-    "build-logos": "svgr figma --out-dir=src --jsx-runtime=automatic"
+    "build-logos": "svgr figma --out-dir=src --jsx-runtime=automatic",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   }
 }
