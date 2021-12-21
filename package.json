@@ -2,6 +2,9 @@
   "name": "@joaopalmeiro/react-pt-football-logos",
   "version": "0.0.1",
   "description": "React components for Portuguese football logos/crests.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "sideEffects": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joaopalmeiro/react-pt-football-logos.git"
@@ -32,13 +35,15 @@
     "@storybook/react": "^6.4.9",
     "@svgr/cli": "^6.1.2",
     "babel-loader": "^8.2.3",
+    "esbuild": "^0.14.6",
     "prettier": "^2.5.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "scripts": {
-    "build-logos": "svgr figma --out-dir=src --jsx-runtime=automatic",
+    "build-logos": "svgr figma",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "build-dist": "node esbuild.js"
   }
 }

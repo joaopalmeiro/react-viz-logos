@@ -1,0 +1,6 @@
+{
+  // More info: https://code.visualstudio.com/docs/languages/identifiers
+  "files.associations": {
+    ".svgrrc": "json"
+  }
+}
