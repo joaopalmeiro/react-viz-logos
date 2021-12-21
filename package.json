@@ -1,13 +1,13 @@
 {
-  "name": "@joaopalmeiro/react-pt-football-logos",
+  "name": "@joaopalmeiro/react-viz-logos",
   "version": "0.0.1",
-  "description": "React components for Portuguese football logos/crests.",
+  "description": "React components for Data Visualization logos.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joaopalmeiro/react-pt-football-logos.git"
+    "url": "git+https://github.com/joaopalmeiro/react-viz-logos.git"
   },
   "author": {
     "name": "João Palmeiro",
@@ -16,9 +16,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joaopalmeiro/react-pt-football-logos/issues"
+    "url": "https://github.com/joaopalmeiro/react-viz-logos/issues"
   },
-  "homepage": "https://github.com/joaopalmeiro/react-pt-football-logos#readme",
+  "homepage": "https://github.com/joaopalmeiro/react-viz-logos#readme",
   "volta": {
     "node": "16.13.1",
     "npm": "8.1.2"

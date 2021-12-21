@@ -1,6 +1,6 @@
-# react-pt-football-logos
+# react-viz-logos
 
-React components for Portuguese football logos/crests.
+React components for Data Visualization logos.
 
 ## Development
 
@@ -20,13 +20,11 @@ React components for Portuguese football logos/crests.
 - [Creating React Libraries from Scratch](https://www.newline.co/courses/creating-react-libraries-from-scratch) course.
 - [Introducing Volta - it manages your Node.js versions so you don't have to](https://www.newline.co/@paigen11/introducing-volta-it-manages-your-nodejs-versions-so-you-dont-have-to--eef49522) blog post.
 
-### Logos/Crests
+### Logos
 
-> [Figma](https://www.figma.com/file/KivMb0U7MQW6vzQCrzB2o5/react-pt-football-logos?node-id=0%3A1)
+> [Figma](https://www.figma.com/file/KivMb0U7MQW6vzQCrzB2o5/react-viz-logos?node-id=0%3A1)
 
-- Sporting (`sporting.svg`):
-  - [Wikipedia](https://en.wikipedia.org/wiki/Sporting_CP).
-  - [Official website](https://scpconteudos.pt/sites/all/themes/jump/images/SVG/icon_emblema.svg).
+- [Altair](https://github.com/altair-viz/altair/tree/master/design) (`altair-logo.svg`). `altair.svg`.
 
 ## Notes
 
@@ -79,3 +77,6 @@ React components for Portuguese football logos/crests.
   - `npm version minor` or `npm version patch`. It adds a Git tag by default.
   - `git push --follow-tags`.
 - Peer dependencies: the dependencies we expect users to provide.
+- Sporting logo/crest:
+  - [Wikipedia](https://en.wikipedia.org/wiki/Sporting_CP).
+  - [Official website](https://scpconteudos.pt/sites/all/themes/jump/images/SVG/icon_emblema.svg).

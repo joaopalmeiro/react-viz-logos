@@ -13,6 +13,7 @@ module.exports = {
 
     'removeDimensions',
 
+    // Source: https://github.com/svg/svgo/blob/master/plugins/sortAttrs.js
     {
       name: 'sortAttrs',
       params: {
