@@ -34,8 +34,8 @@ React components for Data Visualization logos.
   - [react-nba-logos](https://github.com/ChrisKatsaras/react-nba-logos).
   - [react-nfl-logos](https://github.com/ChrisKatsaras/react-nfl-logos).
   - [react-icons](https://github.com/react-icons/react-icons).
-  - [SVGO](https://github.com/svg/svgo) ([UI](https://jakearchibald.github.io/svgomg/)).
-  - [SVGR](https://react-svgr.com/).
+  - [SVGO](https://github.com/svg/svgo). [UI](https://jakearchibald.github.io/svgomg/).
+  - [SVGR](https://react-svgr.com/). [Playground](https://react-svgr.com/playground/).
   - [polished](https://polished.js.org/) (for style calculations).
   - [styled-components](https://styled-components.com/). `npm install --save-peer styled-components`.
   - [nanoid](https://www.npmjs.com/package/nanoid).
