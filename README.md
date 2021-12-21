@@ -39,6 +39,7 @@ React components for Data Visualization logos.
   - [polished](https://polished.js.org/) (for style calculations).
   - [styled-components](https://styled-components.com/). `npm install --save-peer styled-components`.
   - [nanoid](https://www.npmjs.com/package/nanoid).
+  - [npm-package-json-lint](https://npmpackagejsonlint.org/en/).
 - SVGs:
   - [Guidelines](https://github.com/simple-icons/simple-icons/blob/develop/CONTRIBUTING.md).
   - `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">...</svg>` or `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>...</title>...</svg>`.
