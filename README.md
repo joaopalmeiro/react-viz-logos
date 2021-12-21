@@ -49,7 +49,8 @@ React components for Portuguese football logos/crests.
   - Figma:
     - `Main menu` (Figma logo button) > `Preferences` > Disable `Snap to pixel grid`.
     - Frame: don't `Clip content`.
-    - Add the `<title>` element manually after exporting.
+    - Remove all groups (`<g>`).
+    - Optional: Add the `<title>` element manually after exporting.
   - `raw` > `figma`.
 - [Implement pnpm init (instead of passing through to npm init)](https://github.com/pnpm/pnpm/issues/3505) (open) issue. Current command: `pnpm init`.
 - [Volta](https://github.com/volta-cli/volta):
