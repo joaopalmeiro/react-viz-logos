@@ -48,11 +48,13 @@ React components for Portuguese football logos/crests.
 - [Volta](https://github.com/volta-cli/volta):
   - [Support for pnpm](https://github.com/volta-cli/volta/issues/737) (open) issue.
   - [Documentation](https://docs.volta.sh/guide/).
-  - [`volta pin`](https://docs.volta.sh/reference/pin).
-  - `volta -v`.
+  - [`volta pin`](https://docs.volta.sh/reference/pin) (for projects).
+  - `volta -v` and `volta list`.
   - `volta pin node@lts`.
   - `volta pin npm`.
   - `node -v && npm -v`.
+  - [Uninstall](https://docs.volta.sh/advanced/uninstall).
+  - [Reason to not use `package.json`'s `engines` key?](https://github.com/volta-cli/volta/issues/355) issue.
 - [Zendesk Garden](https://garden.zendesk.com/) (design system).
 - `package.json` file:
   - `"name": "@GITHUBUSERNAME/component-library"`.

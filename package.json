@@ -19,5 +19,15 @@
   "volta": {
     "node": "16.13.1",
     "npm": "8.1.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@svgr/cli": "^6.1.2"
+  },
+  "scripts": {
+    "build-logos": "svgr figma --out-dir=src --jsx-runtime=automatic"
   }
 }
