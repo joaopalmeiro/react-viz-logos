@@ -1,7 +1,7 @@
 import { Sporting } from '../index';
 
 export default {
-  title: 'Sporting'
+  title: 'Logos/Sporting'
 };
 
 export const Main = () => <Sporting />;
