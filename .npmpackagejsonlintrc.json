@@ -1,0 +1,6 @@
+{
+  "rules": {
+    "require-author": "error",
+    "require-bugs": "error"
+  }
+}
