@@ -1,1 +1,1 @@
-export { default as Sporting } from "./Sporting";
+export { default as Sporting } from './Sporting';

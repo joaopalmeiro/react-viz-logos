@@ -1,10 +1,5 @@
 const SvgSporting = (props) => (
-  <svg
-    aria-hidden="true"
-    viewBox="0 0 24 24"
-    xmlns="http://www.w3.org/2000/svg"
-    {...props}
-  >
+  <svg aria-hidden="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
     <path
       fill="#008057"
       fillRule="evenodd"

@@ -1,7 +1,7 @@
-import { Sporting } from "../index";
+import { Sporting } from '../index';
 
 export default {
-  title: "Sporting",
+  title: 'Sporting'
 };
 
 export const Main = () => <Sporting />;

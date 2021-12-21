@@ -3,41 +3,41 @@ module.exports = {
 
   plugins: [
     {
-      name: "preset-default",
+      name: 'preset-default',
       params: {
         overrides: {
-          removeViewBox: false,
-        },
-      },
+          removeViewBox: false
+        }
+      }
     },
 
-    "removeDimensions",
+    'removeDimensions',
 
     {
-      name: "sortAttrs",
+      name: 'sortAttrs',
       params: {
-        xmlnsOrder: "alphabetical",
-      },
+        xmlnsOrder: 'alphabetical'
+      }
     },
 
     // Source: https://github.com/svg/svgo/blob/master/plugins/removeAttrs.js
     {
-      name: "removeAttrs",
+      name: 'removeAttrs',
       params: {
-        attrs: "svg:fill:none",
-      },
+        attrs: 'svg:fill:none'
+      }
     },
 
     // Source: https://github.com/tailwindlabs/heroicons/blob/master/svgo.solid.yaml
     {
-      name: "addAttributesToSVGElement",
+      name: 'addAttributesToSVGElement',
       params: {
         attributes: [
           {
-            "aria-hidden": true,
-          },
-        ],
-      },
-    },
-  ],
+            'aria-hidden': true
+          }
+        ]
+      }
+    }
+  ]
 };
