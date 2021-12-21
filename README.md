@@ -19,7 +19,7 @@ React components for Portuguese football logos/crests.
 
 > [Figma](https://www.figma.com/file/KivMb0U7MQW6vzQCrzB2o5/react-pt-football-logos?node-id=0%3A1)
 
-- [Sporting](<https://en.wikipedia.org/wiki/File:Sporting_Clube_de_Portugal_(Logo).svg>). `sporting.svg`.
+- [Sporting](<https://en.wikipedia.org/wiki/File:Sporting_Clube_de_Portugal_(Logo).svg>) and [Sporting](https://scpconteudos.pt/sites/all/themes/jump/images/SVG/icon_emblema.svg). `sporting.svg`.
 
 ## Notes
 
