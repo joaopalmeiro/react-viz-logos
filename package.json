@@ -6,7 +6,8 @@
     "data",
     "visualization",
     "logos",
-    "icons"
+    "icons",
+    "react"
   ],
   "main": "dist/index.js",
   "module": "dist/index.mjs",
