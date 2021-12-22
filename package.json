@@ -9,30 +9,34 @@
     "icons",
     "react"
   ],
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "sideEffects": false,
+  "homepage": "https://github.com/joaopalmeiro/react-viz-logos#readme",
+  "bugs": {
+    "url": "https://github.com/joaopalmeiro/react-viz-logos/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joaopalmeiro/react-viz-logos.git"
   },
+  "license": "MIT",
   "author": {
     "name": "João Palmeiro",
     "email": "jm.palmeiro@campus.fct.unl.pt",
     "url": "https://joaopalmeiro.github.io/"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/joaopalmeiro/react-viz-logos/issues"
-  },
-  "homepage": "https://github.com/joaopalmeiro/react-viz-logos#readme",
-  "volta": {
-    "node": "16.13.1",
-    "npm": "8.1.2"
-  },
-  "peerDependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+  "sideEffects": false,
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "scripts": {
+    "build": "npm-run-all clean build:*",
+    "build-storybook": "build-storybook",
+    "build:dist": "node esbuild.js",
+    "build:logos": "svgr figma",
+    "clean": "rimraf dist",
+    "lint": "npm-run-all lint:*",
+    "lint:pkg": "npmPkgJsonLint .",
+    "lint:sort": "sort-package-json --check",
+    "sort": "sort-package-json",
+    "storybook": "start-storybook -p 6006"
   },
   "devDependencies": {
     "@babel/core": "^7.16.5",
@@ -48,15 +52,15 @@
     "prettier": "^2.5.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "sort-package-json": "^1.53.1"
   },
-  "scripts": {
-    "build:logos": "svgr figma",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "build:dist": "node esbuild.js",
-    "clean": "rimraf dist",
-    "build": "npm-run-all clean build:*",
-    "lint:pkg": "npmPkgJsonLint ."
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "volta": {
+    "node": "16.13.1",
+    "npm": "8.1.2"
   }
 }
