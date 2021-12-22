@@ -87,3 +87,4 @@ React components for Data Visualization logos.
   - [Wikipedia](https://en.wikipedia.org/wiki/Sporting_CP).
   - [Official website](https://scpconteudos.pt/sites/all/themes/jump/images/SVG/icon_emblema.svg).
 - [`npm pack`](https://docs.npmjs.com/cli/v8/commands/npm-pack).
+- [Warp](https://www.warp.dev/): terminal.
