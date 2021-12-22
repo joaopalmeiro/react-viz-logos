@@ -44,6 +44,23 @@
     "prefer-alphabetical-peerDependencies": "error",
 
     "prefer-alphabetical-scripts": "error",
-    "prefer-scripts": ["error", ["build", "clean", "lint", "sort", "storybook"]]
+    "prefer-scripts": ["error", ["build", "clean", "lint", "sort", "storybook"]],
+
+    "description-format": [
+      "error",
+      {
+        "requireCapitalFirstLetter": true,
+        "requireEndingPeriod": true
+      }
+    ],
+    "name-format": "error",
+    "version-format": "error",
+
+    "no-duplicate-properties": "error",
+
+    "prefer-no-contributors": "error",
+    "prefer-no-dependencies": "error",
+    "prefer-no-engineStrict": "error",
+    "prefer-no-optionalDependencies": "error"
   }
 }
