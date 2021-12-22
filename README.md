@@ -87,4 +87,11 @@ React components for Data Visualization logos.
   - [Wikipedia](https://en.wikipedia.org/wiki/Sporting_CP).
   - [Official website](https://scpconteudos.pt/sites/all/themes/jump/images/SVG/icon_emblema.svg).
 - [`npm pack`](https://docs.npmjs.com/cli/v8/commands/npm-pack).
-- [Warp](https://www.warp.dev/): terminal.
+- [Warp](https://www.warp.dev/):
+  - Terminal (built in Rust).
+  - Wes Bos [Twitter thread](https://twitter.com/wesbos/status/1467939925861486599).
+  - [Themes](https://github.com/warpdotdev/themes).
+  - [Documentation](https://docs.warp.dev/).
+  - `Settings` > `Appearance`:
+    - `TERMINAL FONT`: Hack (default).
+    - `FONT SIZE`: 14.
