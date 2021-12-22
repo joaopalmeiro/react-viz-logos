@@ -43,6 +43,8 @@ React components for Data Visualization logos.
   - [npm-package-json-lint](https://npmpackagejsonlint.org/en/). [Rules](https://npmpackagejsonlint.org/docs/en/rules). [prefer-property-order](https://npmpackagejsonlint.org/docs/en/rules/package-json-properties/prefer-property-order).
   - [sort-package-json](https://github.com/keithamus/sort-package-json). [Rules](https://github.com/keithamus/sort-package-json/blob/master/defaultRules.md). As of version [1.5.2](https://github.com/keithamus/sort-package-json/releases/tag/v1.52.0), `scripts` are sorted unless `npm-run-all` is a dependency ([function](https://github.com/keithamus/sort-package-json/blob/v1.53.1/index.js#L142)). Sort with VS Code as an alternative, for example.
   - [better-npm-run](https://www.npmjs.com/package/better-npm-run).
+  - [check-engine](https://github.com/mohlsen/check-engine).
+  - [node-semver](https://github.com/npm/node-semver).
 - SVGs:
   - [Guidelines](https://github.com/simple-icons/simple-icons/blob/develop/CONTRIBUTING.md).
   - `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">...</svg>` or `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>...</title>...</svg>`.
