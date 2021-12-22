@@ -1,6 +1,10 @@
 {
   "rules": {
     "require-author": "error",
-    "require-bugs": "error"
+    "require-bugs": "error",
+    "require-description": "error",
+    "require-devDependencies": "error",
+    "require-homepage": "error",
+    "require-keywords": "error"
   }
 }
