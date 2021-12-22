@@ -8,6 +8,7 @@ React components for Data Visualization logos.
 - `npm install`.
 - `npm run storybook`.
 - `npm run build`.
+- `npm pack --dry-run`.
 
 ## References
 
@@ -81,3 +82,4 @@ React components for Data Visualization logos.
 - Sporting logo/crest:
   - [Wikipedia](https://en.wikipedia.org/wiki/Sporting_CP).
   - [Official website](https://scpconteudos.pt/sites/all/themes/jump/images/SVG/icon_emblema.svg).
+- [`npm pack`](https://docs.npmjs.com/cli/v8/commands/npm-pack).

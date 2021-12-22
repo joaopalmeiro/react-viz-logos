@@ -1,0 +1,8 @@
+.storybook/
+.vscode/
+src/stories/
+esbuild.js
+.npmpackagejsonlintrc.json
+.prettierrc
+.svgrrc
+svgo.config.js
