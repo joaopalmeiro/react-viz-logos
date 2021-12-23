@@ -34,6 +34,7 @@
     "clean": "rimraf dist",
     "lint": "npm-run-all lint:*",
     "lint:engine": "check-engine",
+    "lint:figma": "svglint figma/*.svg -c .svglintrc.figma.js --debug",
     "lint:pkg": "npmPkgJsonLint .",
     "lint:sort": "sort-package-json --check",
     "sort": "sort-package-json",
@@ -55,7 +56,8 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "rimraf": "^3.0.2",
-    "sort-package-json": "^1.53.1"
+    "sort-package-json": "^1.53.1",
+    "svglint": "^2.0.0"
   },
   "peerDependencies": {
     "react": "^17.0.2",

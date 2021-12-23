@@ -95,3 +95,9 @@ React components for Data Visualization logos.
   - `Settings` > `Appearance`:
     - `TERMINAL FONT`: Hack (default).
     - `FONT SIZE`: 14.
+- [SVGLint](https://github.com/birjolaxew/svglint):
+  - It is used by [Simple Icons](https://github.com/simple-icons/simple-icons).
+  - [Default configuration](https://github.com/birjolaxew/svglint/issues/25) (open) issue.
+  - `npx svglint figma/*.svg --debug`, `npx svglint raw/*svg figma/*.svg --debug`, or `npx svglint raw/*svg figma/*.svg --ci`.
+  - By default it only checks if the SVG is [valid](https://github.com/birjolaxew/svglint/blob/v2.0.0/src/rules/valid.js) (more info [here](https://github.com/birjolaxew/svglint/blob/v2.0.0/src/svglint.js#L45)). In version 2.0.0, there is no default configuration (it is necessary to create a [`.svglintrc.js` file](https://github.com/birjolaxew/svglint#config)).
+  - [Examples](https://github.com/birjolaxew/svglint/tree/v2.0.0/test).
