@@ -8,6 +8,12 @@ const logoSize = 24;
 // const targetCenter = logoSize / 2;
 const targetCenter = NP.divide(logoSize, 2);
 
+const defaultAttrPath = {
+  d: /^[Mm][MmZzLlHhVvCcSsQqTtAaEe0-9-,.\s]+$/,
+  fill: true,
+  'rule::whitelist': true
+};
+
 // Source:
 // - https://github.com/simple-icons/simple-icons/blob/6.3.0/.svglintrc.js#L17
 // - https://github.com/simple-icons/simple-icons/blob/6.3.0/.svglintrc.js#L15
@@ -46,10 +52,15 @@ module.exports = {
         // - https://regexr.com/6c4ot
         // - https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d#path_commands
         // d: /^[,a-zA-Z0-9\. -]+$/,
-        d: /^[Mm][MmZzLlHhVvCcSsQqTtAaEe0-9-,.\s]+$/,
-        fill: true,
-        'rule::selector': 'svg > path',
-        'rule::whitelist': true
+        ...defaultAttrPath,
+        opacity: true,
+        'rule::selector': 'svg > path[opacity]'
+      },
+      {
+        ...defaultAttrPath,
+        // opacity: true,
+        // Source: https://stackoverflow.com/a/1533485
+        'rule::selector': 'svg > path:not([opacity])'
       }
     ],
     custom: [

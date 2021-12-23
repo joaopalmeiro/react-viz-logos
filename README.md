@@ -7,6 +7,7 @@ React components for Data Visualization logos.
 - Install the [SVG Export](https://svgexport.io/) Chrome extension.
 - `npm install`.
 - `npm run storybook`.
+- `npm run lint`.
 - `npm run build`.
 - `npm pack --dry-run`.
 
@@ -26,6 +27,7 @@ React components for Data Visualization logos.
 > [Figma](https://www.figma.com/file/KivMb0U7MQW6vzQCrzB2o5/react-viz-logos?node-id=0%3A1)
 
 - [Altair](https://github.com/altair-viz/altair/tree/master/design) (`altair-logo.svg`). `altair.svg`.
+- [Vega-Lite](https://github.com/vega/logos) (`VL_Color.svg`). `vega-lite.svg`.
 
 ## Notes
 
