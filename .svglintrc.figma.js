@@ -1,3 +1,5 @@
+const svgPathBbox = require('svg-path-bbox');
+
 // Source:
 // - https://github.com/birjolaxew/svglint/tree/v2.0.0/test
 // - https://github.com/simple-icons/simple-icons/blob/6.3.0/.svglintrc.js
@@ -44,12 +46,28 @@ module.exports = {
         // More info:
         // - https://cheerio.js.org/
         // - https://cheerio.js.org/classes/Cheerio.html
+        // - https://github.com/birjolaxew/svglint/blob/v2.0.0/src/lib/reporter.js#L85
+        // - https://github.com/birjolaxew/svglint/blob/v2.0.0/src/lib/linting.js#L88
+        // - https://stackoverflow.com/a/61604230
+        // - https://cheerio.js.org/classes/Cheerio.html#map
+        // - https://cheerio.js.org/classes/Cheerio.html#each
+        // - https://www.npmjs.com/package/svg-path-bbox
         reporter.name = 'logo-centered';
 
-        const iconPaths = $.find('path').length;
+        // [[x0, y0, x1, y1], ...]
+        const paths = [];
 
+        $.find('path').each(function (i, elem) {
+          paths[i] = svgPathBbox(elem.attribs.d);
+        });
+
+        // console.log($.html());
         // reporter.error($.html());
-        reporter.error(iconPaths);
+
+        // More info: https://developer.mozilla.org/en-US/docs/Web/API/console/dir
+        // console.dir($);
+        // console.dir($.find('path'));
+        // console.log(paths);
       }
     ]
   }
