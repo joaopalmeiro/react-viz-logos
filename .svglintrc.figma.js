@@ -1,9 +1,18 @@
+const NP = require('number-precision');
 const svgPathBbox = require('svg-path-bbox');
-// More info: https://anguscroll.com/just/just-zip-it
 const zip = require('just-zip-it');
 
 const logoSize = 24;
-const targetCenter = logoSize / 2;
+
+// const targetCenter = logoSize / 2;
+const targetCenter = NP.divide(logoSize, 2);
+
+// Source:
+// - https://github.com/simple-icons/simple-icons/blob/6.3.0/.svglintrc.js#L17
+// - https://github.com/simple-icons/simple-icons/blob/6.3.0/.svglintrc.js#L15
+// const logoFloatPrecision = 3;
+// const logoTolerance = 0;
+const logoTolerance = 0.001;
 
 // Source:
 // - https://github.com/birjolaxew/svglint/tree/v2.0.0/test
@@ -74,6 +83,7 @@ module.exports = {
         // console.dir($.find('path'));
         // console.log(paths);
 
+        // More info: https://anguscroll.com/just/just-zip-it
         const corners = zip(...paths);
         const boundingBox = [
           Math.min(...corners[0]),
@@ -87,15 +97,28 @@ module.exports = {
         // console.log(paths);
         // console.log(boundingBox);
 
+        // More info: https://github.com/nefe/number-precision
+        // console.log(NP.plus(0.1, 0.2));
+        // vs.
+        // console.log(0.1 + 0.2);
+
         const [minX, minY, maxX, maxY] = boundingBox;
-        const centerX = (minX + maxX) / 2;
-        const devianceX = centerX - targetCenter;
-        const centerY = (minY + maxY) / 2;
-        const devianceY = centerY - targetCenter;
+        // const centerX = (minX + maxX) / 2;
+        // const devianceX = centerX - targetCenter;
+        // const centerY = (minY + maxY) / 2;
+        // const devianceY = centerY - targetCenter;
+        // const centerX = +((minX + maxX) / 2).toFixed(logoFloatPrecision);
+        // const centerY = +((minY + maxY) / 2).toFixed(logoFloatPrecision);
+
+        const centerX = NP.divide(NP.plus(minX, maxX), 2);
+        const devianceX = NP.minus(centerX, targetCenter);
+        const centerY = NP.divide(NP.plus(minY, maxY), 2);
+        const devianceY = NP.minus(centerY, targetCenter);
 
         // console.log(centerX, devianceX, centerY, devianceY);
+        // console.log(NP.strip(centerX), NP.strip(devianceX), NP.strip(centerY), NP.strip(devianceY));
 
-        if (Math.abs(devianceX) > 0 || Math.abs(devianceY) > 0) {
+        if (Math.abs(devianceX) > logoTolerance || Math.abs(devianceY) > logoTolerance) {
           reporter.error(
             `All <path> elements together must be centered at (${targetCenter}, ${targetCenter}); the current center is (${centerX}, ${centerY})`,
             // More info: https://github.com/birjolaxew/svglint/blob/v2.0.0/test/custom.spec.js#L125
