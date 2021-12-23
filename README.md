@@ -46,6 +46,8 @@ React components for Data Visualization logos.
   - [check-engine](https://github.com/mohlsen/check-engine).
   - [node-semver](https://github.com/npm/node-semver).
   - [svg-path-bbox](https://www.npmjs.com/package/svg-path-bbox).
+  - [number-precision](https://www.npmjs.com/package/number-precision).
+  - [decimal.js](https://www.npmjs.com/package/decimal.js) and [bignumber.js](https://www.npmjs.com/package/bignumber.js).
 - SVGs:
   - [Guidelines](https://github.com/simple-icons/simple-icons/blob/develop/CONTRIBUTING.md).
   - `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">...</svg>` or `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>...</title>...</svg>`.

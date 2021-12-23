@@ -1,4 +1,9 @@
 const svgPathBbox = require('svg-path-bbox');
+// More info: https://anguscroll.com/just/just-zip-it
+const zip = require('just-zip-it');
+
+const logoSize = 24;
+const targetCenter = logoSize / 2;
 
 // Source:
 // - https://github.com/birjolaxew/svglint/tree/v2.0.0/test
@@ -38,7 +43,7 @@ module.exports = {
       }
     ],
     custom: [
-      function (reporter, $, ast) {
+      function (reporter, $, ast, info) {
         // Source:
         // - https://github.com/simple-icons/simple-icons/blob/6.3.0/.svglintrc.js#L825
         // - https://github.com/birjolaxew/svglint/blob/v2.0.0/src/rules/custom.js
@@ -54,7 +59,7 @@ module.exports = {
         // - https://www.npmjs.com/package/svg-path-bbox
         reporter.name = 'logo-centered';
 
-        // [[x0, y0, x1, y1], ...]
+        // [[x0, y0, x1, y1], ...] a.k.a. [[minX, minY, maxX, maxY], ...]
         const paths = [];
 
         $.find('path').each(function (i, elem) {
@@ -68,6 +73,36 @@ module.exports = {
         // console.dir($);
         // console.dir($.find('path'));
         // console.log(paths);
+
+        const corners = zip(...paths);
+        const boundingBox = [
+          Math.min(...corners[0]),
+          Math.min(...corners[1]),
+          Math.max(...corners[2]),
+          Math.max(...corners[3])
+        ];
+
+        // Run: npm run lint:figma > output.txt
+        // console.log(info);
+        // console.log(paths);
+        // console.log(boundingBox);
+
+        const [minX, minY, maxX, maxY] = boundingBox;
+        const centerX = (minX + maxX) / 2;
+        const devianceX = centerX - targetCenter;
+        const centerY = (minY + maxY) / 2;
+        const devianceY = centerY - targetCenter;
+
+        // console.log(centerX, devianceX, centerY, devianceY);
+
+        if (Math.abs(devianceX) > 0 || Math.abs(devianceY) > 0) {
+          reporter.error(
+            `All <path> elements together must be centered at (${targetCenter}, ${targetCenter}); the current center is (${centerX}, ${centerY})`,
+            // More info: https://github.com/birjolaxew/svglint/blob/v2.0.0/test/custom.spec.js#L125
+            $.find('svg')[0],
+            ast
+          );
+        }
       }
     ]
   }
