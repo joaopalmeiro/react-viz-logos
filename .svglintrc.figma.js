@@ -1,3 +1,4 @@
+const decimalCounter = require('@raulfdm/decimal-counter');
 const NP = require('number-precision');
 const svgPathBbox = require('svg-path-bbox');
 const zip = require('just-zip-it');
@@ -12,7 +13,7 @@ const targetCenter = NP.divide(logoSize, 2);
 // - https://github.com/simple-icons/simple-icons/blob/6.3.0/.svglintrc.js#L15
 // const logoFloatPrecision = 3;
 // const logoTolerance = 0;
-const logoTolerance = 0.001;
+// const logoTolerance = 0.001;
 
 // Source:
 // - https://github.com/birjolaxew/svglint/tree/v2.0.0/test
@@ -117,6 +118,12 @@ module.exports = {
 
         // console.log(centerX, devianceX, centerY, devianceY);
         // console.log(NP.strip(centerX), NP.strip(devianceX), NP.strip(centerY), NP.strip(devianceY));
+
+        const numberDecimalPlaces = Math.max(...boundingBox.map((v) => decimalCounter(v)));
+        const logoTolerance = NP.divide(1, Math.pow(10, numberDecimalPlaces));
+
+        // console.log(numberDecimalPlaces);
+        // console.log(logoTolerance);
 
         if (Math.abs(devianceX) > logoTolerance || Math.abs(devianceY) > logoTolerance) {
           reporter.error(
