@@ -1,8 +1,13 @@
 .storybook/
 .vscode/
+backup/
+figma/
+raw/
 src/stories/
-esbuild.js
 .npmpackagejsonlintrc.json
 .prettierrc
+.svglintrc.figma.js
 .svgrrc
+esbuild.js
+output.txt
 svgo.config.js
