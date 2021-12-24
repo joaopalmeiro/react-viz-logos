@@ -14,9 +14,13 @@ The `react-viz-logos` project provides data on the license under which each logo
 
 Please note that adding licenses to the `react-viz-logos` project is an ongoing effort. Hence, the absence of license data for a particular logo does not imply that the logo is not released under a license.
 
-As licenses are subject to change, regularly check if the licenses for the logos you use have been changed. If you find that the license data provided is outdated, please [submit an issue](https://github.com/joaopalmeiro/react-viz-logos/issues) to the [`react-viz-logos` GitHub repository](https://github.com/joaopalmeiro/react-viz-logos).
+As licenses are subject to change, regularly check if the licenses of the logos you use have changed. If you find that the license data provided is outdated, please [submit an issue](https://github.com/joaopalmeiro/react-viz-logos/issues) to the [`react-viz-logos` GitHub repository](https://github.com/joaopalmeiro/react-viz-logos).
 
-Finally, the `react-viz-logos` project is released under the [MIT license](LICENSE). This does not imply that all logos within the project are licensed this way as well. Please see individual licenses where available.
+Finally, the `react-viz-logos` project is released under the [MIT license](LICENSE). This does not imply that all logos within the project are licensed this way as well. Please see individual licenses where available and seek the correct permissions to use the logos relevant to your project(s).
+
+### Brand Guidelines
+
+HERE
 
 ## References
 
