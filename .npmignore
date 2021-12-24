@@ -3,11 +3,13 @@
 backup/
 figma/
 raw/
-src/stories/
+# src/stories/
+src/
 .npmpackagejsonlintrc.json
 .prettierrc
 .svglintrc.figma.js
 .svgrrc
 esbuild.js
+NOTES.md
 output.txt
 svgo.config.js
