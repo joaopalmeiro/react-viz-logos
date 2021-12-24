@@ -61,7 +61,6 @@
       ]
     ],
     "valid-values-license": ["error", ["MIT"]],
-    "valid-values-name-scope": ["error", ["@joaopalmeiro"]],
     "version-format": "error",
     "version-type": "error"
   }

@@ -79,3 +79,5 @@
   - By default it only checks if the SVG is [valid](https://github.com/birjolaxew/svglint/blob/v2.0.0/src/rules/valid.js) (more info [here](https://github.com/birjolaxew/svglint/blob/v2.0.0/src/svglint.js#L45)). In version 2.0.0, there is no default configuration (it is necessary to create a [`.svglintrc.js` file](https://github.com/birjolaxew/svglint#config)).
   - [Examples](https://github.com/birjolaxew/svglint/tree/v2.0.0/test).
 - [SVG Porn](https://svgporn.com/) website.
+- `.npmpackagejsonlintrc.json`:
+  - `"valid-values-name-scope": ["error", ["@joaopalmeiro"]]`.
