@@ -10,11 +10,11 @@ React components for Data Visualization logos.
 
 ### Licenses, Copyrights, and Trademarks
 
-The `react-viz-logos` project provides data on the license under which each logo is available. We ask users to consider this when using a logo.
+The `react-viz-logos` project provides data on the license under which each logo is available. Please consider this when using a logo. Licenses can be accessed from the `react-viz-logos` website.
 
 Please note that adding licenses to the `react-viz-logos` project is an ongoing effort. Hence, the absence of license data for a particular logo does not imply that the logo is not released under a license.
 
-As licenses are subject to change, we also ask our users to regularly check if the license of the logos they use has been changed. If you find that the license data provided is outdated, please [submit an issue](https://github.com/joaopalmeiro/react-viz-logos/issues) to the [`react-viz-logos` GitHub repository](https://github.com/joaopalmeiro/react-viz-logos).
+As licenses are subject to change, regularly check if the licenses for the logos you use have been changed. If you find that the license data provided is outdated, please [submit an issue](https://github.com/joaopalmeiro/react-viz-logos/issues) to the [`react-viz-logos` GitHub repository](https://github.com/joaopalmeiro/react-viz-logos).
 
 Finally, the `react-viz-logos` project is released under the [MIT license](LICENSE). This does not imply that all logos within the project are licensed this way as well. Please see individual licenses where available.
 
