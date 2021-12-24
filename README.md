@@ -28,7 +28,11 @@ As brand guidelines/visual identities are subject to change, regularly check if 
 
 ### Updates
 
-HERE
+If you find any logo or information that needs updating, please [submit an issue](https://github.com/joaopalmeiro/react-viz-logos/issues) to the [`react-viz-logos` GitHub repository](https://github.com/joaopalmeiro/react-viz-logos). In the issue, explain the reasons for the update, please.
+
+### Removals
+
+If one of the logos should be removed from the `react-viz-logos` project, please [submit an issue](https://github.com/joaopalmeiro/react-viz-logos/issues) to the [`react-viz-logos` GitHub repository](https://github.com/joaopalmeiro/react-viz-logos). In the issue, explain the reasons for the removal, please.
 
 ## References
 
