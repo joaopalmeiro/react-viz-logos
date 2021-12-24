@@ -18,7 +18,15 @@ As licenses are subject to change, regularly check if the licenses of the logos 
 
 Finally, the `react-viz-logos` project is released under the [MIT license](LICENSE). This does not imply that all logos within the project are licensed this way as well. Please see individual licenses where available and seek the correct permissions to use the logos relevant to your project(s).
 
-### Brand Guidelines
+### Brand Guidelines/Visual Identities
+
+The `react-viz-logos` project provides data on the brand guidelines/visual identity for each logo (if any). Please read these guidelines and ensure that you use each logo in accordance with them. They can be accessed from the `react-viz-logos` website.
+
+Please note that adding brand guidelines/visual identities to the `react-viz-logos` project is an ongoing effort. Hence, the absence of guidelines for a particular logo does not imply that the logo has no associated brand-related documents. Please check the logo source for more details and how to use them.
+
+As brand guidelines/visual identities are subject to change, regularly check if the guidelines of the logos you use have changed. If you find that the guidelines provided are outdated, please [submit an issue](https://github.com/joaopalmeiro/react-viz-logos/issues) to the [`react-viz-logos` GitHub repository](https://github.com/joaopalmeiro/react-viz-logos).
+
+### Updates
 
 HERE
 
