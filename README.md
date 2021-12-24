@@ -2,6 +2,20 @@
 
 React components for Data Visualization logos.
 
+## Legal
+
+> Adapted from the [Browser Logos](https://github.com/alrra/browser-logos) and [Simple Icons](https://github.com/simple-icons/simple-icons) projects.
+
+**Summary**: All logos and trademarks are the property of their respective owners. Everything else (the `react-viz-logos` project) is available under the [MIT license](LICENSE).
+
+### Licenses, Copyrights, and Trademarks
+
+The `react-viz-logos` project provides data on the license under which each logo is available. We ask users to consider this when using a logo.
+
+Please note that adding licenses to the `react-viz-logos` project is an ongoing effort. Hence, the absence of licence data for a particular logo does not imply that the logo is not released under a license.
+
+As licenses are subject to change, we also ask our users to regularly check if the license of the logos they use have been changed. If you find that the license data provided is outdated, please submit an issue to the `react-viz-logos` GitHub repository.
+
 ## References
 
 - [heroicons](https://github.com/tailwindlabs/heroicons) package and its [build.js](https://github.com/tailwindlabs/heroicons/blob/master/scripts/build.js) script.
