@@ -1,5 +1,16 @@
 # Notes
 
+## Development
+
+- Install the [SVG Export](https://svgexport.io/) Chrome extension.
+- `npm install`.
+- `npm run storybook`.
+- `npm run lint`.
+- `npm run build`.
+- `npm pack --dry-run`.
+
+## Misc
+
 > [Figma](https://www.figma.com/file/KivMb0U7MQW6vzQCrzB2o5/react-viz-logos?node-id=0%3A1)
 
 - [Creating and publishing private packages](https://docs.npmjs.com/creating-and-publishing-private-packages) (npm).

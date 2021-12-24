@@ -50,12 +50,3 @@ If one of the logos should be removed from the `react-viz-logos` project, please
 
 - [Altair](https://github.com/altair-viz/altair/tree/master/design) (`altair-logo.svg`). `raw`: `altair.svg`.
 - [Vega-Lite](https://github.com/vega/logos) (`VL_Color.svg`). `raw`: `vega-lite.svg`.
-
-## Development
-
-- Install the [SVG Export](https://svgexport.io/) Chrome extension.
-- `npm install`.
-- `npm run storybook`.
-- `npm run lint`.
-- `npm run build`.
-- `npm pack --dry-run`.
