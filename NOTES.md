@@ -21,6 +21,7 @@
   - [svg-path-bbox](https://www.npmjs.com/package/svg-path-bbox).
   - [number-precision](https://www.npmjs.com/package/number-precision).
   - [decimal.js](https://www.npmjs.com/package/decimal.js) and [bignumber.js](https://www.npmjs.com/package/bignumber.js).
+  - [Brand Logos](https://github.com/brandlogos/brandlogos).
 - SVGs:
   - [Guidelines](https://github.com/simple-icons/simple-icons/blob/develop/CONTRIBUTING.md).
   - `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">...</svg>` or `<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>...</title>...</svg>`.
@@ -77,3 +78,4 @@
   - `npx svglint figma/*.svg --debug`, `npx svglint raw/*svg figma/*.svg --debug`, or `npx svglint raw/*svg figma/*.svg --ci`.
   - By default it only checks if the SVG is [valid](https://github.com/birjolaxew/svglint/blob/v2.0.0/src/rules/valid.js) (more info [here](https://github.com/birjolaxew/svglint/blob/v2.0.0/src/svglint.js#L45)). In version 2.0.0, there is no default configuration (it is necessary to create a [`.svglintrc.js` file](https://github.com/birjolaxew/svglint#config)).
   - [Examples](https://github.com/birjolaxew/svglint/tree/v2.0.0/test).
+- [SVG Porn](https://svgporn.com/) website.

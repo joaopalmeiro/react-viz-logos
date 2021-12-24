@@ -1,10 +1,10 @@
 import { Altair } from '../index';
 
 export default {
-  title: 'Logos/Altair',
-  parameters: {
-    layout: 'centered'
-  }
+    title: 'Logos/Altair',
+    parameters: {
+        layout: 'centered'
+    }
 };
 
 // export const Main = () => <Altair />;

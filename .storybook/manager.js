@@ -5,5 +5,5 @@ import { addons } from '@storybook/addons';
 // - https://storybook.js.org/docs/react/configure/storybook-addons
 // - https://storybook.js.org/docs/react/configure/theming
 addons.setConfig({
-  showPanel: false // Addon panel
+    showPanel: false // Addon panel
 });

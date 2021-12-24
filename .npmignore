@@ -5,6 +5,7 @@ figma/
 raw/
 # src/stories/
 src/
+.editorconfig
 .npmpackagejsonlintrc.json
 .prettierrc
 .svglintrc.figma.js

@@ -1,0 +1,22 @@
+# Source:
+# - https://github.com/joaopalmeiro/dotfiles/blob/main/.editorconfig
+# - https://github.com/jquery-boilerplate/jquery-boilerplate/blob/master/.editorconfig
+# - https://github.com/sindresorhus/atom-editorconfig/blob/main/.editorconfig
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+indent_size = 2
+trim_trailing_whitespace = false
+
+[.*rc]
+indent_size = 2
+
+[*.{json,yml}]
+indent_size = 2
