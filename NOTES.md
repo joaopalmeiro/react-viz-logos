@@ -97,3 +97,8 @@
     - [CLI options](https://storybook.js.org/docs/react/api/cli-options).
   - [Default tab is always canvas on first load](https://github.com/storybookjs/storybook/issues/13128) (open) issue.
   - [Addon-backgrounds MDX support](https://github.com/storybookjs/storybook/issues/14322) (open) issue.
+  - [Badge](https://github.com/storybookjs/storybook#badges--presentation-materials) ([alternative](https://github.com/storybookjs/brand)).
+- `yarn` === `yarn install` ([documentation](https://classic.yarnpkg.com/en/docs/cli/#toc-default-command)).
+- [Chromatic](https://www.chromatic.com/):
+  - `Manage` > `Automate` > Disable `UI Review` and `Visual tests`.
+- `publish.yml`: `on: push: tags: - 'v*'`.

@@ -1,0 +1,29 @@
+# Source:
+# - https://storybook.js.org/tutorials/intro-to-storybook/react/en/deploy/
+# - https://docs.npmjs.com/cli/v8/commands/npm-ci
+# - https://github.com/chromaui/action
+# - https://www.chromatic.com/docs/github-actions
+# - https://docs.github.com/en/actions/security-guides/automatic-token-authentication
+# - https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions
+name: 'Chromatic/Storybook Deployment'
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  chromatic-deployment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Install dependencies
+        run: npm ci
+      - name: Publish to Chromatic
+        uses: chromaui/action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
