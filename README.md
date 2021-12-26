@@ -1,5 +1,7 @@
 # react-viz-logos
 
+[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://main--61c8b6061e29e7003adaae54.chromatic.com/)
+
 React components for Data Visualization logos.
 
 ## Legal

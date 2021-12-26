@@ -101,4 +101,5 @@
 - `yarn` === `yarn install` ([documentation](https://classic.yarnpkg.com/en/docs/cli/#toc-default-command)).
 - [Chromatic](https://www.chromatic.com/):
   - `Manage` > `Automate` > Disable `UI Review` and `Visual tests`.
+  - [Get permalinks to your project](https://www.chromatic.com/docs/permalinks#get-permalinks-to-your-project).
 - `publish.yml`: `on: push: tags: - 'v*'`.
