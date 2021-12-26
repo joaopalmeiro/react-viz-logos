@@ -5,6 +5,7 @@
 # - https://www.chromatic.com/docs/github-actions
 # - https://docs.github.com/en/actions/security-guides/automatic-token-authentication
 # - https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions
+# - https://github.com/actions/starter-workflows/blob/main/ci/node.js.yml
 name: 'Chromatic/Storybook Deployment'
 
 on:

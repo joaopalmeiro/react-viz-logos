@@ -1,3 +1,8 @@
 {
-  "recommendations": ["esbenp.prettier-vscode", "richie5um2.vscode-sort-json", "jounqin.vscode-mdx"]
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "richie5um2.vscode-sort-json",
+    "jounqin.vscode-mdx",
+    "redhat.vscode-yaml"
+  ]
 }

@@ -47,6 +47,7 @@ If one of the logos should be removed from the `react-viz-logos` project, please
 - [Creating React Libraries from Scratch](https://www.newline.co/courses/creating-react-libraries-from-scratch) course.
 - [Introducing Volta - it manages your Node.js versions so you don't have to](https://www.newline.co/@paigen11/introducing-volta-it-manages-your-nodejs-versions-so-you-dont-have-to--eef49522) blog post.
 - [Browser Logos](https://github.com/alrra/browser-logos) repo/package.
+- [VSCode, how to check workflow syntax for GitHub Actions](https://robertodev.medium.com/vscode-how-to-check-workflow-syntax-for-github-actions-f9ba2cc1dba5) blog post.
 
 ### Logos
 
