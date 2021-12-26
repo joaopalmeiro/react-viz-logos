@@ -63,8 +63,6 @@
     - `main`: CJS.
     - `module`: ES Modules.
     - `browser`: Universal Module Definition (UMD).
-- [Storybook CLI](https://www.npmjs.com/package/@storybook/cli):
-  - `npx sb init --use-npm`.
 - CommonJS (CJS): Server-side only.
 - `npx browserslist ">0.2%, not dead, not op_mini all"`.
 - [`npm version`](https://docs.npmjs.com/cli/v8/commands/npm-version):
@@ -92,3 +90,7 @@
 - [SVG Porn](https://svgporn.com/) website.
 - `.npmpackagejsonlintrc.json`:
   - `"valid-values-name-scope": ["error", ["@joaopalmeiro"]]`.
+- Storybook:
+  - [UI: Add external links to navigation](https://github.com/storybookjs/storybook/issues/8047) (open) issue (and [[Feature Question] Hyperlinks in sidebar?](https://github.com/storybookjs/storybook/issues/7443) issue).
+  - [Storybook CLI](https://www.npmjs.com/package/@storybook/cli):
+    - `npx sb init --use-npm`.
