@@ -38,7 +38,7 @@
     "lint:pkg": "npmPkgJsonLint .",
     "lint:sort": "sort-package-json --check",
     "sort": "sort-package-json",
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook -p 6006 --no-manager-cache"
   },
   "devDependencies": {
     "@babel/core": "^7.16.5",

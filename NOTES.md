@@ -94,3 +94,6 @@
   - [UI: Add external links to navigation](https://github.com/storybookjs/storybook/issues/8047) (open) issue (and [[Feature Question] Hyperlinks in sidebar?](https://github.com/storybookjs/storybook/issues/7443) issue).
   - [Storybook CLI](https://www.npmjs.com/package/@storybook/cli):
     - `npx sb init --use-npm`.
+    - [CLI options](https://storybook.js.org/docs/react/api/cli-options).
+  - [Default tab is always canvas on first load](https://github.com/storybookjs/storybook/issues/13128) (open) issue.
+  - [Addon-backgrounds MDX support](https://github.com/storybookjs/storybook/issues/14322) (open) issue.
