@@ -9,6 +9,11 @@
 - `npm run build`.
 - `npm pack --dry-run`.
 
+## Deployment
+
+- `npm version minor` or `npm version patch` or `npm version major`.
+- `git push --follow-tags`.
+
 ## Misc
 
 > [Figma](https://www.figma.com/file/KivMb0U7MQW6vzQCrzB2o5/react-viz-logos?node-id=0%3A1)
@@ -98,6 +103,7 @@
   - [Default tab is always canvas on first load](https://github.com/storybookjs/storybook/issues/13128) (open) issue.
   - [Addon-backgrounds MDX support](https://github.com/storybookjs/storybook/issues/14322) (open) issue.
   - [Badge](https://github.com/storybookjs/storybook#badges--presentation-materials) ([alternative](https://github.com/storybookjs/brand)).
+  - Alternative: [Docz](https://www.docz.site/).
 - `yarn` === `yarn install` ([documentation](https://classic.yarnpkg.com/en/docs/cli/#toc-default-command)).
 - [Chromatic](https://www.chromatic.com/):
   - `Manage` > `Automate` > Disable `UI Review` and `Visual tests`.
