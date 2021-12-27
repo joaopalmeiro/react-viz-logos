@@ -27,7 +27,7 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "scripts": {
-    "build": "npm-run-all clean build:*",
+    "build": "npm-run-all clean build:logos build:dist",
     "build-storybook": "build-storybook",
     "build:dist": "node esbuild.js",
     "build:logos": "svgr figma",
