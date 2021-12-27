@@ -1,3 +1,5 @@
+import * as React from 'react';
+
 const SvgAltair = (props) => (
     <svg aria-hidden="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
         <path fill="#FBC02D" d="M8 22.435H0l8-20.87v20.87Z" />

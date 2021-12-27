@@ -1,6 +1,12 @@
 const esbuild = require('esbuild');
 const pkg = require('./package.json');
 
+// More info:
+// - https://esbuild.github.io/content-types/#auto-import-for-jsx
+// - `Support jsx automatic runtime` (open) issue: https://github.com/evanw/esbuild/issues/334
+// - https://react-svgr.com/docs/options/#jsx-runtime
+// - https://react-svgr.com/docs/options/#jsx-runtime-import-source
+
 const defaultConfig = {
     entryPoints: ['src/index.js'],
     bundle: true,
