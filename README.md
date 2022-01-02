@@ -12,7 +12,7 @@ React components for Data Visualization logos.
 
 ### Licenses, Copyrights, and Trademarks
 
-The `react-viz-logos` project provides data on the license under which each logo is available. Please consider this when using a logo. Licenses can be accessed from the `react-viz-logos` website.
+The `react-viz-logos` project provides data on the license under which each logo is available. Please consider this when using a logo. Licenses can be accessed from the [`react-viz-logos` website](https://main--61c8b6061e29e7003adaae54.chromatic.com/).
 
 Please note that adding licenses to the `react-viz-logos` project is an ongoing effort. Hence, the absence of license data for a particular logo does not imply that the logo is not released under a license.
 
@@ -22,7 +22,7 @@ Finally, the `react-viz-logos` project is released under the [MIT license](LICEN
 
 ### Brand Guidelines/Visual Identities
 
-The `react-viz-logos` project provides data on the brand guidelines/visual identity for each logo (if any). Please read these guidelines and ensure that you use each logo in accordance with them. They can be accessed from the `react-viz-logos` website.
+The `react-viz-logos` project provides data on the brand guidelines/visual identity for each logo (if any). Please read these guidelines and ensure that you use each logo in accordance with them. They can be accessed from the [`react-viz-logos` website](https://main--61c8b6061e29e7003adaae54.chromatic.com/).
 
 Please note that adding brand guidelines/visual identities to the `react-viz-logos` project is an ongoing effort. Hence, the absence of guidelines for a particular logo does not imply that the logo has no associated brand-related documents. Please check the logo source for more details and how to use them.
 
